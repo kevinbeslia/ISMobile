@@ -2,22 +2,23 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#808080"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#505050">
 
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
+        android:layout_width="37dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/poppins_extrabold"
         android:text="IS"
+
         android:textColor="#FF9E2C"
         android:textSize="35dp"
-
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintHorizontal_bias="0.337"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,12 +26,12 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/poppins_regular"
         android:text="Mobile"
         android:textColor="#FFFFFF"
         android:textSize="35dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,16 +40,18 @@
         android:layout_width="286dp"
         android:layout_height="56dp"
         android:layout_marginStart="101dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="101dp"
         android:background="@drawable/form"
         android:ems="10"
+        android:fontFamily="@font/poppins_regular"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:paddingLeft="15dp"
         android:text="Email"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -57,31 +60,36 @@
         android:layout_width="286dp"
         android:layout_height="56dp"
         android:layout_marginStart="102dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="100dp"
         android:background="@drawable/form"
         android:ems="10"
+        android:fontFamily="@font/poppins_regular"
         android:hint="Password"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:paddingLeft="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.389"
+        app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editUsername" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="211dp"
-        android:layout_height="48dp"
+        android:id="@+id/buttonLogin"
+        android:layout_width="280dp"
+        android:layout_height="64dp"
         android:layout_marginStart="145dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="172dp"
         android:backgroundTint="#C76B00"
-        android:text="Login"
+        android:ems="10"
 
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintHorizontal_bias="0.438"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editPassword" />
 
