@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/requestFragment"
+        android:title="Request"
+        android:icon="@drawable/ic_add"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/listFragment"
+        android:title="List"
+        android:icon="@drawable/ic_list"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/profileFragment"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile_navbar"
+        android:iconTint="@color/white"/>
+</menu>

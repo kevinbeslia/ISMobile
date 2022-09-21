@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C3C9CB">
+    android:background="#EFEFEF">
 
     <ImageView
         android:id="@+id/imageView5"
@@ -13,6 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+
         app:srcCompat="@drawable/navbar" />
 
     <TextView
@@ -74,8 +75,8 @@
         android:layout_marginTop="4dp"
         android:fontFamily="@font/poppins"
         android:text="dosen@gmail.com   |  +6280000000000 "
-        app:layout_constraintEnd_toEndOf="parent"
         android:textSize="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
@@ -252,8 +253,8 @@
         android:text="Bahasa"
         android:textColor="#000"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.217"
-        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
         app:layout_constraintTop_toTopOf="@+id/imageView7" />
 
     <ImageView
