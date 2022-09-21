@@ -29,7 +29,7 @@
     </style>
 
     <style name="SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:windowSplashscreenContent">@layout/splashscreen</item>
+        <item name="android:windowSplashscreenContent">@layout/activity_splashscreen</item>
 
     </style>
 </resources>

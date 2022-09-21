@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#C3C9CB"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#EFEFEF">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -245,8 +245,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"
         android:fontFamily="@font/poppins_regular"
-        android:textSize="13dp"
         android:text="+6280000000000"
+        android:textSize="13dp"
         app:layout_constraintEnd_toEndOf="@+id/imageView23"
         app:layout_constraintHorizontal_bias="0.101"
         app:layout_constraintStart_toStartOf="@+id/imageView23"
