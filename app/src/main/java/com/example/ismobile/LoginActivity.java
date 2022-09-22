@@ -17,7 +17,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void onClick_Button_Login(View view){
         Toast.makeText(this, "Yey berhasil login", Toast.LENGTH_SHORT).show();
-        startActivity(new Intent(LoginActivity.this,HomeFragment.class));
-        finish();
+        startActivity(new Intent(LoginActivity.this,HomeActivity.class));
+
     }
 }
