@@ -83,6 +83,7 @@
         android:layout_marginEnd="172dp"
         android:backgroundTint="#C76B00"
         android:fontFamily="@font/poppins_extrabold"
+        android:onClick="onClick_Button_Login"
         android:text="Login"
         android:textAlignment="center"
         android:textSize="23sp"
