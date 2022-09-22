@@ -6,23 +6,8 @@
     app:startDestination="@id/homeFragment">
 
     <fragment
-        android:id="@+id/listFragment"
-        android:name="com.example.ismobile.ListFragment"
-        android:label="fragment_list"
-        tools:layout="@layout/fragment_list" />
-    <fragment
-        android:id="@+id/requestFragment"
-        android:name="com.example.ismobile.RequestFragment"
-        android:label="fragment_request"
-        tools:layout="@layout/fragment_request" />
-    <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.ismobile.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
-    <fragment
-        android:id="@+id/profileFragment"
-        android:name="com.example.ismobile.ProfileFragment"
-        android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />
 </navigation>
