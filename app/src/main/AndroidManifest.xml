@@ -14,8 +14,12 @@
         android:theme="@style/Theme.ISMobile"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".UbahProfilActivity"
             android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ISMobileNoActionBar" />
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
@@ -26,7 +30,7 @@
         <activity
             android:name=".SplashScreen"
             android:exported="true"
-            android:theme="@style/SplashScreen">
+            android:theme="@style/Theme.ISMobileNoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
