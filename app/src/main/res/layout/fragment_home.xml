@@ -87,7 +87,7 @@
         android:id="@+id/imageView32"
         android:layout_width="350dp"
         android:layout_height="75dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
