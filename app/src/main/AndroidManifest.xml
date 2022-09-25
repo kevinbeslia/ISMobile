@@ -17,13 +17,16 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false"
             android:theme="@style/Theme.ISMobileNoActionBar" />
         <activity
             android:name=".SplashScreen"
             android:exported="true"
-            android:theme="@style/SplashScreen">
+            android:theme="@style/Theme.ISMobileNoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

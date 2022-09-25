@@ -4,251 +4,202 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EFEFEF">
+    android:background="#EFEFEF"
+    tools:context=".UbahProfilActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ubahProfilToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="675dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Ubah Profil"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ubahProfilToolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ubahProfilToolbar" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="80dp"
+        android:background="#C76B00"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/textView8"
+        app:srcCompat="@drawable/ic_arrow_back" />
+
+    <ImageButton
+        android:id="@+id/doneButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:background="#C76B00"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/textView8"
+        app:srcCompat="@drawable/ic_check" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="415dp"
-        android:layout_height="115dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/navbar" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        android:fontFamily="@font/poppins_extrabold"
-        android:text="Ubah Profil"
-        android:textColor="#FFFF"
-        android:textSize="25dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="68dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.042"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:srcCompat="@drawable/ic_baseline_arrow_back_ios_new_24" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.947"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:srcCompat="@drawable/ic_baseline_check_24" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="347dp"
-        android:layout_height="457dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="350dp"
+        android:layout_height="530dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/ubahProfilToolbar"
         app:srcCompat="@drawable/form" />
-
-    <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="301dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="152dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:layout_constraintHorizontal_bias="0.413"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="@+id/imageView19"
-        app:srcCompat="@drawable/form2" />
-
-    <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="301dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="220dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:layout_constraintHorizontal_bias="0.413"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="@+id/imageView19"
-        app:srcCompat="@drawable/form2" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
-        android:fontFamily="@font/poppins_regular"
-        android:text="Ubah Foto Profil"
-        android:textColor="#F29D38"
-        android:textSize="10dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="@+id/imageView19" />
-
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
-        android:fontFamily="@font/poppins_regular"
-        android:text="Ubah Foto Profil"
-        android:textColor="#F29D38"
-        android:textSize="10dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="@+id/imageView19" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="9dp"
-        android:fontFamily="@font/poppins_regular"
-        android:text="Husnil Kamil, M.T."
-        android:textColor="#000"
-        android:textSize="13dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:layout_constraintHorizontal_bias="0.081"
-        app:layout_constraintStart_toStartOf="@+id/imageView20"
-        app:layout_constraintTop_toTopOf="@+id/imageView20" />
 
     <TextView
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:fontFamily="@font/poppins_regular"
-        android:text="198201182008121002"
-        android:textColor="#000"
-        android:textSize="13dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:layout_constraintHorizontal_bias="0.087"
-        app:layout_constraintStart_toStartOf="@+id/imageView20"
-        app:layout_constraintTop_toTopOf="@+id/imageView21" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="124dp"
-        android:fontFamily="@font/poppins_regular"
-        android:text="Nama"
-        android:textColor="#000"
-        android:textSize="13dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:layout_constraintHorizontal_bias="0.062"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="@+id/imageView19" />
+        android:fontFamily="@font/lato_bold_italic"
+        android:text="Nomor Hp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
 
     <TextView
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="196dp"
-        android:fontFamily="@font/poppins_regular"
-        android:text="NIP"
-        android:textColor="#000"
-        android:textSize="13dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:layout_constraintHorizontal_bias="0.062"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="@+id/imageView19" />
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="268dp"
-        android:fontFamily="@font/poppins_regular"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/lato_bold_italic"
         android:text="Email"
-        android:textColor="#000"
-        android:textSize="13dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:layout_constraintHorizontal_bias="0.064"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="@+id/imageView19" />
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/editTextNIP"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNIP" />
+
+    <EditText
+        android:id="@+id/editTextNIP"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/form2"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:ems="10"
+        android:fontFamily="@font/lato_regular"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="198201182008121002"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/lato_bold_italic"
+        android:text="NIP"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/editTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPersonName" />
+
+    <ImageView
+        android:id="@+id/fotoProfilView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:srcCompat="@drawable/photo_profile" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true"
         android:fontFamily="@font/poppins_regular"
-        android:text="Nomor Telepon"
-        android:textColor="#000"
-        android:textSize="13dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:layout_constraintHorizontal_bias="0.076"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="@+id/imageView19" />
-
-    <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="59dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="@+id/imageView19"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="301dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="288dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="@+id/imageView19"
-        app:srcCompat="@drawable/form" />
-
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="301dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="364dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="@+id/imageView19"
-        app:srcCompat="@drawable/form" />
+        android:text="Ubah Foto Profil"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#B15D00"
+        android:textSize="16sp"
+        app:iconTint="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/fotoProfilView"
+        app:layout_constraintStart_toStartOf="@+id/fotoProfilView"
+        app:layout_constraintTop_toBottomOf="@+id/fotoProfilView" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="9dp"
-        android:fontFamily="@font/poppins_regular"
-        android:text="husnilkamil@gmail.com"
-        android:textSize="13dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView23"
-        app:layout_constraintHorizontal_bias="0.143"
-        app:layout_constraintStart_toStartOf="@+id/imageView23"
-        app:layout_constraintTop_toTopOf="@+id/imageView23" />
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/lato_bold_italic"
+        android:text="Nama"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
-    <TextView
-        android:id="@+id/textView28"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/editTextPersonName"
+        android:layout_width="260dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="9dp"
-        android:fontFamily="@font/poppins_regular"
-        android:text="+6280000000000"
-        android:textSize="13dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView23"
-        app:layout_constraintHorizontal_bias="0.101"
-        app:layout_constraintStart_toStartOf="@+id/imageView23"
-        app:layout_constraintTop_toTopOf="@+id/imageView24" />
+        android:background="@drawable/form2"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:ems="10"
+        android:fontFamily="@font/lato_regular"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Husnil Kamil, M.T."
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:fontFamily="@font/lato_regular"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:text="namadosen@gmail.com"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:fontFamily="@font/lato_regular"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:text="081234567890"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
