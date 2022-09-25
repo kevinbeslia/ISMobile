@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    tools:context=".DetailJadwalSeminar">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="675dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/orange_500"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView20"
+        app:layout_constraintEnd_toStartOf="@+id/textView20"
+        app:layout_constraintStart_toStartOf="@+id/toolbar6"
+        app:layout_constraintTop_toTopOf="@+id/textView20"
+        app:srcCompat="@drawable/ic_arrow_back"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Detail Jadwal Seminar Hasil"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar6" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/orange_500"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView20"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20"
+        app:srcCompat="@drawable/ic_check"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="350dp"
+        android:layout_height="560dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6"
+        app:srcCompat="@drawable/form" />
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="52dp"
+        android:background="#EFEFEF"
+        app:layout_constraintStart_toStartOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/divider10" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_regular"
+        android:text="Rabu, 16 Oktober 2023 08.30 WIB"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView53"
+        app:layout_constraintEnd_toEndOf="@+id/textView31"
+        app:layout_constraintTop_toTopOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Jadwal Seminar  :"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView28"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView32"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_regular"
+        android:text="Ruang Seminar E"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView49"
+        app:layout_constraintEnd_toEndOf="@+id/textView31"
+        app:layout_constraintTop_toTopOf="@+id/textView49" />
+
+    <View
+        android:id="@+id/divider10"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="52dp"
+        android:background="#EFEFEF"
+        app:layout_constraintStart_toStartOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/divider9" />
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="52dp"
+        android:background="#EFEFEF"
+        app:layout_constraintStart_toStartOf="@+id/textView32"
+        app:layout_constraintTop_toBottomOf="@+id/divider8" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_regular"
+        android:text="Dinan Yulianto S.T., M.Eng."
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView32"
+        app:layout_constraintEnd_toEndOf="@+id/textView29"
+        app:layout_constraintTop_toTopOf="@+id/textView32" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_file_pdf"
+        android:fontFamily="@font/lato_bold_italic"
+        android:minHeight="36dp"
+        android:text="File Tugas Akhir"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Dosen Pembimbing Akademik               :"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView28"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Lokasi Seminar   :"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView28"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView53"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_accept"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Terima"
+        android:textColor="#48742C"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/button2" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="52dp"
+        android:background="#EFEFEF"
+        app:layout_constraintStart_toStartOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/divider7" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Sistem Pakar Diagnosa Penyakit Tanaman Padi dengan Forward dan Backward Chaining"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintStart_toEndOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="6dp"
+        android:background="#EFEFEF"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="13dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Dosen Pembimbing TA   :"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider8"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/divider7"
+        app:layout_constraintTop_toBottomOf="@+id/divider7" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="2000018338"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/lato_bold"
+        android:text="Seminar Hasil"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Mafatihul Hidayah"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        app:srcCompat="@drawable/ic_profile" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="300dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="18dp"
+        android:background="#000000"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_reject"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Tolak"
+        android:textColor="#8B1A10"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Judul TA                    :"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/divider6"
+        app:layout_constraintTop_toBottomOf="@+id/divider6" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Miftahurrahma Rosyda, S.Kom, M.Eng"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView28"
+        app:layout_constraintTop_toTopOf="@+id/textView28" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
