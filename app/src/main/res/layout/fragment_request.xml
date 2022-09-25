@@ -8,6 +8,16 @@
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="54dp">
 
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_drop_down"
+        app:layout_constraintBottom_toBottomOf="@+id/textView44"
+        app:layout_constraintEnd_toEndOf="@+id/imageView40"
+        app:layout_constraintStart_toStartOf="@+id/imageView40"
+        app:layout_constraintTop_toTopOf="@+id/textView44" />
+
     <TextView
         android:id="@+id/textView52"
         android:layout_width="wrap_content"

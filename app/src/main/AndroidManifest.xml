@@ -14,18 +14,8 @@
         android:theme="@style/Theme.ISMobile"
         tools:targetApi="31">
         <activity
-            android:name=".DetailJadwalSeminar"
-            android:exported="false" />
-        <activity
-            android:name=".UbahPasswordActivity"
-            android:exported="false" />
-        <activity
-            android:name=".UbahProfilActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
-            android:exported="false"
-            android:theme="@style/Theme.ISMobileNoActionBar" />
+            android:exported="false" />
         <activity
             android:name=".HomeActivity"
             android:exported="false" />

@@ -1,5 +1,25 @@
 <resources>
-    <string name="app_name">ISMobile</string>
+    <string name="app_name">ISMobile App</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bimbingan_nama_1">Muhammad Kevin Beslia</string>
+    <string name="bimbingan_nim_1">1911520000</string>
+    <string name="bimbingan_nama_2">Ruth Emeralda</string>
+    <string name="bimbingan_nim_2">2011520000</string>
+    <string name="bimbingan_nama_3">Mafatihul Hidayah</string>
+    <string name="bimbingan_nim_3">1911520000</string>
+    <string name="bimbingan_nama_4">Rahmadina</string>
+    <string name="bimbingan_nim_4">2011520000</string>
+    <string name="bimbingan_nama_5">Muhammad Kevin Beslia</string>
+    <string name="bimbingan_nim_5">1911520000</string>
+    <string name="bimbingan_nama_6">Ruth Emeralda</string>
+    <string name="bimbingan_nim_6">2011520000</string>
+    <string name="bimbingan_nama_7">Ruth Emeralda</string>
+    <string name="bimbingan_nim_7">2011520000</string>
+    <string name="bimbingan_nama_8">Ruth Emeralda</string>
+    <string name="bimbingan_nim_8">2011520000</string>
+    <string name="bimbingan_nama_9">Ruth Emeralda</string>
+    <string name="bimbingan_nim_9">2011520000</string>
+    <string name="bimbingan_nama_10">Ruth Emeralda</string>
+    <string name="bimbingan_nim_10">2011520000</string>
 </resources>
