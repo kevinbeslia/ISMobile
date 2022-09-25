@@ -321,6 +321,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
+        android:layout_marginTop="36dp"
         android:background="@color/white"
         android:drawableLeft="@drawable/ic_reject"
         android:fontFamily="@font/poppins_extrabold"
@@ -328,7 +329,7 @@
         android:textColor="#8B1A10"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
-        tools:layout_editor_absoluteY="594dp" />
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <TextView
         android:id="@+id/textView27"
