@@ -5,7 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -22,6 +28,10 @@ public class HomeFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private ArrayList<Bimbingan> bimbinganArrayList;
+    private String[] bimbingan_nama, bimbingan_nim;
+    private int[] bimbingan_avaID;
+    private RecyclerView recyclerview;
 
     public HomeFragment() {
         // Required empty public constructor
@@ -59,5 +69,65 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_home, container, false);
+    }
+
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        dataInitialized();
+        recyclerview = view.findViewById(R.id.recview_bimbingan);
+        recyclerview.setLayoutManager(new LinearLayoutManager(getContext()));
+        recyclerview.setHasFixedSize(true);
+        MyAdapter myAdapter = new MyAdapter(getContext(), bimbinganArrayList);
+        recyclerview.setAdapter(myAdapter);
+        myAdapter.notifyDataSetChanged();
+    }
+
+    private void dataInitialized(){
+        bimbinganArrayList = new ArrayList<>();
+        bimbingan_nama = new String[]{
+                getString(R.string.bimbingan_nama_1),
+                getString(R.string.bimbingan_nama_2),
+                getString(R.string.bimbingan_nama_3),
+                getString(R.string.bimbingan_nama_4),
+                getString(R.string.bimbingan_nama_5),
+                getString(R.string.bimbingan_nama_6),
+                getString(R.string.bimbingan_nama_7),
+                getString(R.string.bimbingan_nama_8),
+                getString(R.string.bimbingan_nama_9),
+                getString(R.string.bimbingan_nama_10),
+        };
+        bimbingan_nim = new String[]{
+                getString(R.string.bimbingan_nim_1),
+                getString(R.string.bimbingan_nim_2),
+                getString(R.string.bimbingan_nim_3),
+                getString(R.string.bimbingan_nim_4),
+                getString(R.string.bimbingan_nim_5),
+                getString(R.string.bimbingan_nim_6),
+                getString(R.string.bimbingan_nim_7),
+                getString(R.string.bimbingan_nim_8),
+                getString(R.string.bimbingan_nim_9),
+                getString(R.string.bimbingan_nim_10),
+        };
+        bimbingan_avaID = new int[]{
+                R.drawable.ic_profile,
+                R.drawable.ic_profile,
+                R.drawable.ic_profile,
+                R.drawable.ic_profile,
+                R.drawable.ic_profile,
+                R.drawable.ic_profile,
+                R.drawable.ic_profile,
+                R.drawable.ic_profile,
+                R.drawable.ic_profile,
+                R.drawable.ic_profile,
+        };
+
+        for(int i = 0; i<bimbingan_nim.length;i++){
+            Bimbingan bimbingan = new Bimbingan(bimbingan_nama[i], bimbingan_nim[i], bimbingan_avaID[i]);
+            bimbinganArrayList.add(bimbingan);
+        }
+
+
     }
 }
