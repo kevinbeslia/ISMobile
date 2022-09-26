@@ -9,60 +9,76 @@
     android:background="@color/white"
     android:foreground="?android:attr/selectableItemBackground">
 
-    <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/request_ava"
-        android:layout_width="59dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="4dp"
-        android:adjustViewBounds="true"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ic_profile"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
-        android:id="@+id/jadwaldosen_nama"
+        android:id="@+id/jadwaldosen_kategori"
         android:layout_width="295dp"
         android:layout_height="30dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="32dp"
-        android:text="@string/bimbingan_nama_2"
+        android:text="@string/kategori1"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.166"
-        app:layout_constraintStart_toEndOf="@+id/request_ava"
-        app:layout_constraintTop_toTopOf="@+id/request_ava" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/jadwaldosen_divider" />
+
+    <TextView
+        android:id="@+id/jadwaldosen_nama"
+        android:layout_width="295dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="44dp"
+        android:text="@string/bimbingan_nama_2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/jadwaldosen_kategori" />
 
     <TextView
         android:id="@+id/jadwaldosen_nim"
         android:layout_width="295dp"
         android:layout_height="26dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="32dp"
         android:text="@string/bimbingan_nim_2"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/jadwaldosen_nama"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="@+id/jadwaldosen_nama"
         app:layout_constraintTop_toBottomOf="@+id/jadwaldosen_nama" />
+
 
     <TextView
         android:id="@+id/jadwaldosen_skripsi"
         android:layout_width="295dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:text="@string/skripsi1"
         android:textColor="@color/black"
         android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/jadwaldosen_nama"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="@+id/jadwaldosen_nama"
+        app:layout_constraintTop_toBottomOf="@+id/jadwaldosen_nim" />
+
+    <TextView
+        android:id="@+id/jadwaldosen_waktu"
+        android:layout_width="295dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/waktu1"
+        android:textAlignment="textEnd"
+        android:textColor="@color/abu"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="@+id/jadwaldosen_nama"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/jadwaldosen_nama"
-        app:layout_constraintTop_toBottomOf="@+id/jadwaldosen_nim" />
+        app:layout_constraintTop_toBottomOf="@+id/jadwaldosen_nama" />
 
     <View
         android:id="@+id/jadwaldosen_divider"
@@ -72,7 +88,7 @@
         android:background="?android:attr/listDivider"
         android:onClick="onClick_bimbingan_detail"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/jadwaldosen_skripsi" />
+        app:layout_constraintTop_toBottomOf="@+id/judul_jadwal" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

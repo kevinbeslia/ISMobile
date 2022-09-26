@@ -88,14 +88,17 @@
         <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/fragment_home2.xml" value="0.10869565217391304" />
         <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/fragment_item_list.xml" value="0.18115942028985507" />
+        <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/fragment_jadwal.xml" value="0.17604166666666668" />
+        <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/fragment_jadwaldosen.xml" value="0.1171875" />
         <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/fragment_list.xml" value="0.1" />
         <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/fragment_list2.xml" value="0.10507246376811594" />
         <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
-        <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/fragment_request.xml" value="0.25" />
+        <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/fragment_request.xml" value="0.22" />
         <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/list_bimbingan.xml" value="0.46326836581709147" />
         <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/list_item.xml" value="0.25" />
-        <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/list_jadwal_dosen.xml" value="0.1" />
+        <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/list_jadwal_dosen.xml" value="0.67" />
         <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/list_jadwal_mahasiswa.xml" value="0.1" />
+        <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/list_jadwaldosen.xml" value="0.5" />
         <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/list_logbook.xml" value="0.11005434782608696" />
         <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/list_request.xml" value="0.4682080924855491" />
         <entry key="..\:/SIUNAND/COURSES/5/PTB_B/ISMobile/app/src/main/res/layout/splashscreen.xml" value="0.19947916666666668" />
