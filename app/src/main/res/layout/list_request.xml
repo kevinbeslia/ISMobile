@@ -13,8 +13,8 @@
         android:id="@+id/request_ava"
         android:layout_width="59dp"
         android:layout_height="58dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_profile"
@@ -23,8 +23,8 @@
 
     <TextView
         android:id="@+id/request_nama"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="319dp"
+        android:layout_height="29dp"
         android:layout_marginStart="13dp"
         android:layout_marginEnd="20dp"
         android:text="@string/bimbingan_nama_2"
@@ -38,9 +38,9 @@
 
     <TextView
         android:id="@+id/request_nim"
-        android:layout_width="279dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="319dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="1dp"
         android:layout_marginEnd="32dp"
         android:text="@string/bimbingan_nim_2"
         android:textColor="@color/black"
@@ -52,11 +52,11 @@
 
     <TextView
         android:id="@+id/request_skripsi"
-        android:layout_width="278dp"
-        android:layout_height="18dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/bimbingan_nim_2"
+        android:text="@string/skripsi1"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/request_nama"
@@ -71,8 +71,8 @@
         android:layout_marginTop="8dp"
         android:background="?android:attr/listDivider"
         android:onClick="onClick_bimbingan_detail"
-        app:layout_constraintTop_toBottomOf="@+id/request_skripsi"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/request_skripsi" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
