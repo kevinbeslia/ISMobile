@@ -79,7 +79,7 @@ public class BimbinganFragment extends Fragment {
         recyclerview = view.findViewById(R.id.recview_bimbingan);
         recyclerview.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerview.setHasFixedSize(true);
-        MyAdapter myAdapter = new MyAdapter(getContext(), bimbinganArrayList);
+        BimbinganAdapter myAdapter = new BimbinganAdapter(getContext(), bimbinganArrayList);
         recyclerview.setAdapter(myAdapter);
         myAdapter.notifyDataSetChanged();
     }
