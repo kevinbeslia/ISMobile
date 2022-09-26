@@ -35,5 +35,10 @@
     <string name="skripsi9">-</string>
     <string name="skripsi10">sed elementum tempus egestas sed sed risus pretium quam vulputate</string>
 
+    <string name="kategori1">Seminar Proposal</string>
+    <string name="kategori2">Seminar Hasil</string>
+    <string name="kategori3">Sidang Akhir</string>
+
+    <string name="waktu1">Senin 01/01/20222</string>
 
 </resources>

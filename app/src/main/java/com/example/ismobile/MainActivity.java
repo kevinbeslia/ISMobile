@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                     replaceFragment(new RequestFragment());
                     break;
                 case R.id.listFragment:
-                    replaceFragment(new ListFragment());
+                    replaceFragment(new JadwalDosenFragment());
                     break;
                 case R.id.profileFragment:
                     replaceFragment(new ProfileFragment());

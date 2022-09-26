@@ -59,9 +59,9 @@ public class RequestAdapter extends RecyclerView.Adapter<RequestAdapter.MyViewHo
         public MyViewHolder(@NonNull View itemView){
             super(itemView);
             request_ava = itemView.findViewById(R.id.request_ava);
-            request_nama = itemView.findViewById(R.id.request_nama);
-            request_nim = itemView.findViewById(R.id.request_nim);
-            request_skripsi = itemView.findViewById(R.id.request_skripsi);
+            request_nama = itemView.findViewById(R.id.jadwaldosen_nama);
+            request_nim = itemView.findViewById(R.id.jadwaldosen_nim);
+            request_skripsi = itemView.findViewById(R.id.jadwaldosen_skripsi);
         }
     }
 }
