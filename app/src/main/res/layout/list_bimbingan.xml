@@ -54,8 +54,8 @@
     <View
         android:id="@+id/bimbingan_divider"
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
         android:background="?android:attr/listDivider"
         android:onClick="onClick_bimbingan_detail"
         app:layout_constraintTop_toBottomOf="@+id/bimbingan_ava"
