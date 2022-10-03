@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         replaceFragment(new HomeFragment());
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
-
             switch (item.getItemId()){
                 case R.id.homeFragment:
                     replaceFragment(new HomeFragment());

@@ -117,17 +117,20 @@
 
     <TextView
         android:id="@+id/profile_edit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="233dp"
+        android:layout_height="48dp"
         android:layout_marginStart="12dp"
         android:fontFamily="@font/lato_bold"
+        android:minHeight="48dp"
         android:onClick="onClick_editProfile"
+        android:paddingTop="8dp"
         android:text="Ubah Profil"
         android:textColor="#000000"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+        app:layout_constraintBottom_toBottomOf="@+id/profile_edit_icon"
+        app:layout_constraintStart_toEndOf="@+id/profile_edit_icon"
+        app:layout_constraintTop_toTopOf="@+id/profile_edit_icon"
+        app:layout_constraintVertical_bias="0.277" />
 
     <TextView
         android:id="@+id/textView10"
@@ -143,7 +146,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageView10" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/profile_edit_icon"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="18dp"
@@ -168,9 +171,9 @@
         android:layout_height="30dp"
         android:layout_marginTop="12dp"
         android:src="@drawable/ic_notifications"
-        app:layout_constraintEnd_toEndOf="@+id/imageView9"
-        app:layout_constraintStart_toStartOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+        app:layout_constraintEnd_toEndOf="@+id/profile_edit_icon"
+        app:layout_constraintStart_toStartOf="@+id/profile_edit_icon"
+        app:layout_constraintTop_toBottomOf="@+id/profile_edit_icon" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -183,42 +186,46 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/profile_logout"
+        android:layout_width="232dp"
+        android:layout_height="33dp"
         android:layout_marginStart="12dp"
         android:fontFamily="@font/lato_bold"
+        android:paddingTop="5dp"
         android:text="Keluar"
         android:textColor="#000000"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
-        app:layout_constraintStart_toEndOf="@+id/imageView14"
-        app:layout_constraintTop_toTopOf="@+id/imageView14" />
+        app:layout_constraintBottom_toBottomOf="@+id/profile_logout_icon"
+        app:layout_constraintStart_toEndOf="@+id/profile_logout_icon"
+        app:layout_constraintTop_toTopOf="@+id/profile_logout_icon"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView14"
+        android:id="@+id/profile_logout_icon"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginTop="12dp"
         android:src="@drawable/ic_logout_profile"
-        app:layout_constraintStart_toStartOf="@+id/imageView13"
-        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+        app:layout_constraintStart_toStartOf="@+id/profile_password_icon"
+        app:layout_constraintTop_toBottomOf="@+id/profile_password_icon" />
 
     <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/profile_password"
+        android:layout_width="231dp"
+        android:layout_height="34dp"
         android:layout_marginStart="12dp"
         android:fontFamily="@font/lato_bold"
+        android:paddingTop="8dp"
         android:text="Kata Sandi"
         android:textColor="#000000"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
-        app:layout_constraintStart_toEndOf="@+id/imageView13"
-        app:layout_constraintTop_toTopOf="@+id/imageView13" />
+        app:layout_constraintBottom_toBottomOf="@+id/profile_password_icon"
+        app:layout_constraintStart_toEndOf="@+id/profile_password_icon"
+        app:layout_constraintTop_toTopOf="@+id/profile_password_icon"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/profile_password_icon"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="18dp"
