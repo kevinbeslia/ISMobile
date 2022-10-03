@@ -31,8 +31,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UbahProfilActivity" />
-
+        <activity
+            android:name=".UbahProfilActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ISMobileNoActionBar"/>
+        <activity
+            android:name=".UbahPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ISMobileNoActionBar"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

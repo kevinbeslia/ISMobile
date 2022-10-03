@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -68,9 +71,56 @@ public class ProfileFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
-        binding = FragmentProfileBinding.inflate(inflater, container, false);
-        return binding.getRoot();
+        View rootview = inflater.inflate(R.layout.fragment_profile, container, false);
+        TextView edit_profile = rootview.findViewById(R.id.profile_edit);
+        edit_profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), UbahProfilActivity.class);
+                startActivity(intent);
+            }
+        });
+        ImageView edit_profile_icon = rootview.findViewById(R.id.profile_edit_icon);
+        edit_profile_icon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), UbahProfilActivity.class);
+                startActivity(intent);
+            }
+        });
+        TextView edit_pw = rootview.findViewById(R.id.profile_password);
+        edit_pw.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), UbahProfilActivity.class);
+                startActivity(intent);
+            }
+        });
+        ImageView edit_pw_icon = rootview.findViewById(R.id.profile_password_icon);
+        edit_pw_icon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), UbahPasswordActivity.class);
+                startActivity(intent);
+            }
+        });
+        TextView logout = rootview.findViewById(R.id.profile_logout);
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), LoginActivity.class);
+                startActivity(intent);
+            }
+        });
+        ImageView logout_icon = rootview.findViewById(R.id.profile_logout_icon);
+        logout_icon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), LoginActivity.class);
+                startActivity(intent);
+            }
+        });
+        return rootview;
     }
 
     ProfileListener pListener;
