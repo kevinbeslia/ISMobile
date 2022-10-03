@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EFEFEF"
-    tools:context=".UbahProfilActivity">
+    tools:context=".UbahProfilActivity"
+    android:id="@+id/activity_ubah_profil"
+    >
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/ubahProfilToolbar"
@@ -34,7 +36,7 @@
         app:layout_constraintTop_toTopOf="@+id/ubahProfilToolbar" />
 
     <ImageButton
-        android:id="@+id/backButton"
+        android:id="@+id/buttonBacktoProfile"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginEnd="80dp"
