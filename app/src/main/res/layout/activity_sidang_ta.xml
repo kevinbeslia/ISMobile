@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SidangTaActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar9"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Sidang Tugas Akhir"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar9" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@android:style/Widget.Material.Light.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:background="?attr/colorPrimary"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar9"
+        app:layout_constraintStart_toStartOf="@+id/toolbar9"
+        app:layout_constraintTop_toTopOf="@+id/toolbar9"
+        app:srcCompat="@drawable/ic_arrow_back"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins"
+        android:text="Nama Mahasiswa"
+        android:textColor="#1C1B1B"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar9" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins"
+        android:text="NIM"
+        android:textColor="#1C1B1B"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textView50"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNama" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins"
+        android:text="Judul Tugas Akhir"
+        android:textColor="#1C1B1B"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textView50"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNIM" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins"
+        android:text="Ketua Sidang"
+        android:textColor="#1C1B1B"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/editTextHasilUjian"
+        app:layout_constraintTop_toBottomOf="@+id/editTextHasilUjian" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins"
+        android:text="Penguji"
+        android:textColor="#1C1B1B"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/editTextketuaSidang"
+        app:layout_constraintTop_toBottomOf="@+id/editTextketuaSidang" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Penguji"
+        android:textColor="#1C1B1B"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textView69"
+        app:layout_constraintTop_toBottomOf="@+id/editTextJudulTA" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins"
+        android:text="Hasil Ujian"
+        android:textColor="#1C1B1B"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textView75"
+        app:layout_constraintTop_toBottomOf="@+id/editTextJudulTA2" />
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="Ruth Emeralda Raihan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView50"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <EditText
+        android:id="@+id/editTextNIM"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="2011522018"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNama"
+        app:layout_constraintStart_toStartOf="@+id/textView50"
+        app:layout_constraintTop_toBottomOf="@+id/textView68" />
+
+    <EditText
+        android:id="@+id/editTextJudulTA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="Sistem Pakar Diagnosis Penyakit Tanaman Padi dengan Forward Chaining"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNIM"
+        app:layout_constraintStart_toStartOf="@+id/editTextNIM"
+        app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+    <EditText
+        android:id="@+id/editTextJudulTA2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="Husnil Kamil, M.T."
+        app:layout_constraintEnd_toEndOf="@+id/editTextNIM"
+        app:layout_constraintStart_toStartOf="@+id/editTextNIM"
+        app:layout_constraintTop_toBottomOf="@+id/textView75" />
+
+    <EditText
+        android:id="@+id/editTextHasilUjian"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="tulis hasil ujian.."
+        app:layout_constraintEnd_toEndOf="@+id/editTextJudulTA"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextJudulTA"
+        app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
+    <EditText
+        android:id="@+id/editTextketuaSidang"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="ketua sidang"
+        app:layout_constraintEnd_toEndOf="@+id/editTextHasilUjian"
+        app:layout_constraintStart_toStartOf="@+id/editTextHasilUjian"
+        app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+    <EditText
+        android:id="@+id/editTextPenguji"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="penguji"
+        app:layout_constraintEnd_toEndOf="@+id/editTextketuaSidang"
+        app:layout_constraintStart_toStartOf="@+id/editTextketuaSidang"
+        app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
