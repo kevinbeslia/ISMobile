@@ -1,6 +1,7 @@
 package com.example.ismobile;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -57,8 +58,6 @@ public class JadwalDosenAdapter extends RecyclerView.Adapter<JadwalDosenAdapter.
         TextView jadwaldosen_waktu;
         TextView jadwaldosen_kategori;
 
-
-
         public MyViewHolder(@NonNull View itemView){
             super(itemView);
             jadwaldosen_kategori = itemView.findViewById(R.id.jadwaldosen_kategori);
@@ -66,6 +65,9 @@ public class JadwalDosenAdapter extends RecyclerView.Adapter<JadwalDosenAdapter.
             jadwaldosen_nim = itemView.findViewById(R.id.jadwaldosen_nim);
             jadwaldosen_waktu = itemView.findViewById(R.id.jadwaldosen_waktu);
             jadwaldosen_skripsi = itemView.findViewById(R.id.jadwaldosen_skripsi);
+            itemView.setOnClickListener((view -> {
+
+            }));
         }
     }
 }
