@@ -1,9 +1,9 @@
-package com.example.ismobile;
+package com.example.ismobile.models;
 
 public class Bimbingan {
-    String nama;
-    String nim;
-    int ava;
+    public String nama;
+    public String nim;
+    public int ava;
 
     public Bimbingan(String nama, String nim, int ava){
         this.nama = nama;

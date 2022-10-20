@@ -1,13 +1,13 @@
-package com.example.ismobile;
+package com.example.ismobile.models;
 
 public class JadwalDosen {
-    String nama;
-    String nim;
-    String skripsi;
-    String waktu;
-    String kategori;
-    String jam;
-    String tempat;
+    public String nama;
+    public String nim;
+    public String skripsi;
+    public String waktu;
+    public String kategori;
+    public String jam;
+    public String tempat;
     int ava;
 
     public JadwalDosen(String kategori, String nama, String nim, String skripsi, String waktu, String jam, String tempat) {
