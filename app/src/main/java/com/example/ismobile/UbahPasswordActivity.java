@@ -1,16 +1,17 @@
-package com.example.ismobile.activity;
+package com.example.ismobile;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 
 import com.example.ismobile.R;
 
-public class DetailMahasiswa extends AppCompatActivity {
+public class UbahPasswordActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_mahasiswa);
+        setContentView(R.layout.activity_ubah_password);
     }
 }

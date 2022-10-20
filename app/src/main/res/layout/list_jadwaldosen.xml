@@ -1,134 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview_jadwal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:paddingTop="8dp"
-    android:layout_marginHorizontal="8dp"
+    android:layout_margin="10dp"
     android:background="@color/white"
-    android:foreground="?android:attr/selectableItemBackground">
+    android:foreground="?android:attr/selectableItemBackground"
+    android:padding="10dp"
+    android:paddingVertical="10dp">
 
-    <TextView
-        android:id="@+id/textView60"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
-        android:layout_marginEnd="3dp"
-        android:text="|"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/jadwaldosen_waktu"
-        app:layout_constraintEnd_toStartOf="@+id/jadwaldosen_jam"
-        app:layout_constraintStart_toEndOf="@+id/jadwaldosen_waktu"
-        app:layout_constraintTop_toTopOf="@+id/jadwaldosen_waktu" />
-
-    <TextView
-        android:id="@+id/jadwaldosen_tempat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="6dp"
-        android:text="@string/tempat1"
-        android:textAlignment="textEnd"
-        android:textColor="@color/abu"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toStartOf="@+id/jadwaldosen_waktu"
-        app:layout_constraintTop_toBottomOf="@+id/jadwaldosen_skripsi" />
-
-    <TextView
-        android:id="@+id/jadwaldosen_kategori"
-        android:layout_width="295dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:text="@string/kategori1"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.166"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/jadwaldosen_divider" />
-
-    <TextView
-        android:id="@+id/jadwaldosen_nama"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="@string/bimbingan_nama_2"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/jadwaldosen_kategori"
-        app:layout_constraintTop_toBottomOf="@+id/jadwaldosen_kategori" />
-
-    <TextView
-        android:id="@+id/jadwaldosen_nim"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="@string/bimbingan_nim_2"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="@+id/jadwaldosen_nama"
-        app:layout_constraintTop_toBottomOf="@+id/jadwaldosen_nama" />
-
-
-    <TextView
-        android:id="@+id/jadwaldosen_skripsi"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="@string/skripsi1"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        android:textStyle="italic"
-        app:layout_constraintStart_toStartOf="@+id/jadwaldosen_nama"
-        app:layout_constraintTop_toBottomOf="@+id/jadwaldosen_nim" />
-
-    <TextView
-        android:id="@+id/jadwaldosen_waktu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="6dp"
-        android:text="@string/waktu1"
-        android:textAlignment="textEnd"
-        android:textColor="@color/abu"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toStartOf="@+id/jadwaldosen_jam"
-        app:layout_constraintTop_toTopOf="@+id/jadwaldosen_tempat" />
-
-    <TextView
-        android:id="@+id/jadwaldosen_jam"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/jam1"
-        android:textAlignment="textEnd"
-        android:textColor="@color/abu"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/jadwaldosen_skripsi"
-        app:layout_constraintTop_toTopOf="@+id/jadwaldosen_waktu" />
-
-    <View
-        android:id="@+id/jadwaldosen_divider"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_marginTop="8dp"
-        android:background="?android:attr/listDivider"
-        android:onClick="onClick_bimbingan_detail"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/judul_jadwal" />
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView52"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
-        android:layout_marginEnd="3dp"
-        android:text="|"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/jadwaldosen_tempat"
-        app:layout_constraintEnd_toStartOf="@+id/jadwaldosen_waktu"
-        app:layout_constraintStart_toEndOf="@+id/jadwaldosen_tempat"
-        app:layout_constraintTop_toTopOf="@+id/jadwaldosen_tempat" />
+        <ImageView
+            android:id="@+id/container_dosen2"
+            android:layout_width="392dp"
+            android:layout_height="173dp"
+            app:layout_constraintBottom_toBottomOf="@+id/jadwaldosen_jam"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/jadwaldosen_kategori"
+            app:layout_constraintVertical_bias="0.75"
+            app:srcCompat="@color/white" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:text="|"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/jadwaldosen_waktu"
+            app:layout_constraintEnd_toStartOf="@+id/jadwaldosen_jam"
+            app:layout_constraintStart_toEndOf="@+id/jadwaldosen_waktu"
+            app:layout_constraintTop_toTopOf="@+id/jadwaldosen_waktu" />
+
+        <TextView
+            android:id="@+id/jadwaldosen_tempat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/tempat1"
+            android:textAlignment="textEnd"
+            android:textColor="@color/abu"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@+id/jadwaldosen_waktu"
+            app:layout_constraintTop_toTopOf="@+id/jadwaldosen_waktu" />
+
+        <TextView
+            android:id="@+id/jadwaldosen_kategori"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/kategori1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/jadwaldosen_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/bimbingan_nama_2"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/jadwaldosen_kategori"
+            app:layout_constraintTop_toBottomOf="@+id/jadwaldosen_kategori" />
+
+        <TextView
+            android:id="@+id/jadwaldosen_nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bimbingan_nim_2"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/jadwaldosen_nama"
+            app:layout_constraintTop_toBottomOf="@+id/jadwaldosen_nama" />
+
+        <TextView
+            android:id="@+id/jadwaldosen_skripsi"
+            android:layout_width="309dp"
+            android:layout_height="54dp"
+            android:text="@string/skripsi1"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/jadwaldosen_nama"
+            app:layout_constraintTop_toBottomOf="@+id/jadwaldosen_nim" />
+
+        <TextView
+            android:id="@+id/jadwaldosen_waktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/waktu1"
+            android:textAlignment="textEnd"
+            android:textColor="@color/abu"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@+id/jadwaldosen_jam"
+            app:layout_constraintTop_toTopOf="@+id/jadwaldosen_jam" />
+
+        <TextView
+            android:id="@+id/jadwaldosen_jam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/jam1"
+            android:textAlignment="textEnd"
+            android:textColor="@color/abu"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/jadwaldosen_skripsi"
+            app:layout_constraintTop_toBottomOf="@+id/jadwaldosen_skripsi" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:text="|"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/jadwaldosen_tempat"
+            app:layout_constraintEnd_toStartOf="@+id/jadwaldosen_waktu"
+            app:layout_constraintStart_toEndOf="@+id/jadwaldosen_tempat"
+            app:layout_constraintTop_toTopOf="@+id/jadwaldosen_tempat" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

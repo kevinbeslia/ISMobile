@@ -1,12 +1,10 @@
-package com.example.ismobile.activity;
+package com.example.ismobile;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.ismobile.R;
 
 public class SplashScreen extends AppCompatActivity {
     @Override

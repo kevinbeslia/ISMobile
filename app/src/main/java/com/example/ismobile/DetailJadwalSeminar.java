@@ -1,4 +1,4 @@
-package com.example.ismobile.activity;
+package com.example.ismobile;
 
 import androidx.appcompat.app.AppCompatActivity;
 
