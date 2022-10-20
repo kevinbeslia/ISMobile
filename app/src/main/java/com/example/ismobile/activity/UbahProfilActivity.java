@@ -1,4 +1,4 @@
-package com.example.ismobile;
+package com.example.ismobile.activity;
 
 import static android.content.ContentValues.TAG;
 
@@ -10,7 +10,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.ismobile.R;
 import com.google.android.material.tabs.TabLayout;
+
+import com.example.ismobile.fragment.ProfileFragment;
 
 public class UbahProfilActivity extends AppCompatActivity{
 

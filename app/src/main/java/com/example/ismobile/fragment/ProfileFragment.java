@@ -1,4 +1,7 @@
-package com.example.ismobile;
+package com.example.ismobile.fragment;
+import com.example.ismobile.adapter.*;
+import com.example.ismobile.models.*;
+import com.example.ismobile.activity.*;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,6 +18,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.ismobile.R;
 import com.example.ismobile.databinding.FragmentHomeBinding;
 import com.example.ismobile.databinding.FragmentProfileBinding;
 
