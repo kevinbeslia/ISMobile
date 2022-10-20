@@ -92,7 +92,7 @@ public class ProfileFragment extends Fragment {
         edit_pw.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), UbahProfilActivity.class);
+                Intent intent = new Intent(getActivity(), UbahPasswordActivity.class);
                 startActivity(intent);
             }
         });

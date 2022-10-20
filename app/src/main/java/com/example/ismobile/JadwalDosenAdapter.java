@@ -41,6 +41,8 @@ public class JadwalDosenAdapter extends RecyclerView.Adapter<JadwalDosenAdapter.
         holder.jadwaldosen_skripsi.setText(jadwalDosen.skripsi);
         holder.jadwaldosen_waktu.setText(jadwalDosen.waktu);
         holder.jadwaldosen_kategori.setText(jadwalDosen.kategori);
+        holder.jadwaldosen_jam.setText(jadwalDosen.jam);
+        holder.jadwaldosen_tempat.setText(jadwalDosen.tempat);
     }
 
     @Override
@@ -56,8 +58,8 @@ public class JadwalDosenAdapter extends RecyclerView.Adapter<JadwalDosenAdapter.
         TextView jadwaldosen_skripsi;
         TextView jadwaldosen_waktu;
         TextView jadwaldosen_kategori;
-
-
+        TextView jadwaldosen_jam;
+        TextView jadwaldosen_tempat;
 
         public MyViewHolder(@NonNull View itemView){
             super(itemView);
@@ -66,6 +68,8 @@ public class JadwalDosenAdapter extends RecyclerView.Adapter<JadwalDosenAdapter.
             jadwaldosen_nim = itemView.findViewById(R.id.jadwaldosen_nim);
             jadwaldosen_waktu = itemView.findViewById(R.id.jadwaldosen_waktu);
             jadwaldosen_skripsi = itemView.findViewById(R.id.jadwaldosen_skripsi);
+            jadwaldosen_jam = itemView.findViewById(R.id.jadwaldosen_jam);
+            jadwaldosen_tempat = itemView.findViewById(R.id.jadwaldosen_tempat);
         }
     }
 }

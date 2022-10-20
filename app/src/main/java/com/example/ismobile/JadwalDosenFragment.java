@@ -30,7 +30,7 @@ public class JadwalDosenFragment extends Fragment {
     private String mParam2;
 
     private ArrayList<JadwalDosen> jadwaldosenArrayList;
-    private String[] jadwaldosen_nama, jadwaldosen_nim, jadwaldosen_skripsi, jadwaldosen_waktu, jadwaldosen_kategori;
+    private String[] jadwaldosen_nama, jadwaldosen_nim, jadwaldosen_skripsi, jadwaldosen_waktu, jadwaldosen_kategori, jadwaldosen_jam, jadwaldosen_tempat;
     private RecyclerView recyclerview;
 
     public JadwalDosenFragment() {
@@ -110,28 +110,52 @@ public class JadwalDosenFragment extends Fragment {
                 getString(R.string.bimbingan_nim_10),
         };
         jadwaldosen_waktu = new String[]{
-                getString(R.string.bimbingan_nim_1),
-                getString(R.string.bimbingan_nim_2),
-                getString(R.string.bimbingan_nim_3),
-                getString(R.string.bimbingan_nim_4),
-                getString(R.string.bimbingan_nim_5),
-                getString(R.string.bimbingan_nim_6),
-                getString(R.string.bimbingan_nim_7),
-                getString(R.string.bimbingan_nim_8),
-                getString(R.string.bimbingan_nim_9),
-                getString(R.string.bimbingan_nim_10),
+                getString(R.string.waktu1),
+                getString(R.string.waktu1),
+                getString(R.string.waktu1),
+                getString(R.string.waktu1),
+                getString(R.string.waktu2),
+                getString(R.string.waktu2),
+                getString(R.string.waktu3),
+                getString(R.string.waktu3),
+                getString(R.string.waktu3),
+                getString(R.string.waktu3),
         };
         jadwaldosen_kategori = new String[]{
-                "Seminar Hasil",
-                "Seminar Hasil",
-                "Seminar Hasil",
-                "Seminar Hasil",
-                "Seminar Hasil",
-                "Seminar Hasil",
-                "Seminar Hasil",
-                "Seminar Hasil",
-                "Seminar Hasil",
-                "Seminar Hasil",
+                getString(R.string.kategori2),
+                getString(R.string.kategori2),
+                getString(R.string.kategori2),
+                getString(R.string.kategori2),
+                getString(R.string.kategori2),
+                getString(R.string.kategori2),
+                getString(R.string.kategori2),
+                getString(R.string.kategori2),
+                getString(R.string.kategori2),
+                getString(R.string.kategori2),
+        };
+        jadwaldosen_jam = new String[]{
+                getString(R.string.jam1),
+                getString(R.string.jam2),
+                getString(R.string.jam2),
+                getString(R.string.jam2),
+                getString(R.string.jam2),
+                getString(R.string.jam2),
+                getString(R.string.jam2),
+                getString(R.string.jam2),
+                getString(R.string.jam2),
+                getString(R.string.jam2),
+        };
+        jadwaldosen_tempat = new String[]{
+                getString(R.string.tempat1),
+                getString(R.string.tempat1),
+                getString(R.string.tempat1),
+                getString(R.string.tempat1),
+                getString(R.string.tempat1),
+                getString(R.string.tempat1),
+                getString(R.string.tempat1),
+                getString(R.string.tempat1),
+                getString(R.string.tempat1),
+                getString(R.string.tempat1),
         };
         jadwaldosen_skripsi = new String[]{
                 getString(R.string.skripsi1),
@@ -148,7 +172,7 @@ public class JadwalDosenFragment extends Fragment {
 
 
         for(int i = 0; i<jadwaldosen_nim.length;i++){
-            JadwalDosen jadwaldosen = new JadwalDosen(jadwaldosen_kategori[i],jadwaldosen_nama[i], jadwaldosen_nim[i], jadwaldosen_skripsi[i], jadwaldosen_waktu[i]);
+            JadwalDosen jadwaldosen = new JadwalDosen(jadwaldosen_kategori[i],jadwaldosen_nama[i], jadwaldosen_nim[i], jadwaldosen_skripsi[i], jadwaldosen_waktu[i], jadwaldosen_jam[i], jadwaldosen_tempat[i]);
             jadwaldosenArrayList.add(jadwaldosen);
         }
 

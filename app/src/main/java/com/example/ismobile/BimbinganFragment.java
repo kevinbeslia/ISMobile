@@ -88,7 +88,7 @@ public class BimbinganFragment extends Fragment {
         bimbinganArrayList = new ArrayList<>();
         bimbingan_nama = new String[]{
                 getString(R.string.bimbingan_nama_1),
-                getString(R.string.bimbingan_nama_2),
+                "getString(R.string.bimbingan_nama_2)",
                 getString(R.string.bimbingan_nama_3),
                 getString(R.string.bimbingan_nama_4),
                 getString(R.string.bimbingan_nama_5),

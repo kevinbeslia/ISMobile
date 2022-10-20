@@ -3,15 +3,15 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bimbingan_nama_1">Muhammad Kevin Beslia</string>
-    <string name="bimbingan_nama_2">Ruth Emeralda</string>
+    <string name="bimbingan_nama_2">Ruth Emeralda Raihan</string>
     <string name="bimbingan_nama_3">Mafatihul Hidayah</string>
     <string name="bimbingan_nama_4">Rahmadina</string>
     <string name="bimbingan_nama_5">Muhammad Kevin Beslia</string>
-    <string name="bimbingan_nama_6">Ruth Emeralda</string>
-    <string name="bimbingan_nama_7">Ruth Emeralda</string>
-    <string name="bimbingan_nama_8">Ruth Emeralda</string>
-    <string name="bimbingan_nama_9">Ruth Emeralda</string>
-    <string name="bimbingan_nama_10">Ruth Emeralda</string>
+    <string name="bimbingan_nama_6">Ruth Emeralda Raihan</string>
+    <string name="bimbingan_nama_7">Ruth Emeralda Raihan</string>
+    <string name="bimbingan_nama_8">Ruth Emeralda Raihan</string>
+    <string name="bimbingan_nama_9">Ruth Emeralda Raihan</string>
+    <string name="bimbingan_nama_10">Ruth Emeralda Raihan</string>
 
     <string name="bimbingan_nim_1">1911520000</string>
     <string name="bimbingan_nim_2">2011520000</string>
@@ -27,18 +27,29 @@
     <string name="skripsi1">volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis</string>
     <string name="skripsi2">gravida rutrum quisque non tellus</string>
     <string name="skripsi3">risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque</string>
-    <string name="skripsi4">-</string>
+    <string name="skripsi4">abcdefghijkl</string>
     <string name="skripsi5">sed elementum tempus egestas sed sed risus pretium quam vulputate</string>
     <string name="skripsi6">volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis</string>
     <string name="skripsi7">gravida rutrum quisque non tellus</string>
     <string name="skripsi8">risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque</string>
-    <string name="skripsi9">-</string>
+    <string name="skripsi9">asdfghjkl</string>
     <string name="skripsi10">sed elementum tempus egestas sed sed risus pretium quam vulputate</string>
 
     <string name="kategori1">Seminar Proposal</string>
     <string name="kategori2">Seminar Hasil</string>
-    <string name="kategori3">Sidang Akhir</string>
+    <string name="kategori3">Sidang</string>
 
-    <string name="waktu1">Senin 01/01/20222</string>
+    <string name="waktu1">Senin 01/01/2022</string>
+    <string name="waktu2">Selasa 02/01/2022</string>
+    <string name="waktu3">Rabu 03/01/2022</string>
+
+    <string name="jam1">08.00 WIB</string>
+    <string name="jam2">10.00 WIB</string>
+    <string name="jam3">13.00.00 WIB</string>
+    <string name="jam4">15.00.00 WIB</string>
+
+    <string name="tempat1">Ruang Seminar E</string>
+    <string name="tempat2">Ruang Sidang</string>
+
 
 </resources>

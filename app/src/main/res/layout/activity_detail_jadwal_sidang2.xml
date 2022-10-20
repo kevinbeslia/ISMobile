@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_semibold"
-        android:text="Detail Jadwal Seminar Hasil"
+        android:text="Detail Jadwal Sidang"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
@@ -99,7 +99,7 @@
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lato_regular"
-        android:text="Ruang Seminar E"
+        android:text="Ruang Sidang"
         android:textColor="#000000"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView49"
@@ -141,7 +141,7 @@
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="32dp"
         android:background="@color/white"
         android:drawableLeft="@drawable/ic_file_pdf"
         android:fontFamily="@font/lato_bold_italic"
@@ -186,15 +186,15 @@
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="48dp"
-        android:drawableLeft="@drawable/ic_accept"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_input_nilai"
         android:fontFamily="@font/poppins_extrabold"
-        android:text="Terima"
-        android:textColor="#48742C"
+        android:text="Input Nilai"
+        android:textColor="@color/orange_500"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonTolakJadwalSemhas"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/buttonTolakJadwalSemhas" />
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFileTugasAkhir" />
 
     <View
         android:id="@+id/divider8"
@@ -263,7 +263,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/lato_bold"
-        android:text="Seminar Hasil"
+        android:text="Sidang"
         android:textColor="#000000"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
@@ -299,21 +299,6 @@
         android:background="#000000"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
-
-    <Button
-        android:id="@+id/buttonTolakJadwalSemhas"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="36dp"
-        android:drawableLeft="@drawable/ic_reject"
-        android:fontFamily="@font/poppins_extrabold"
-        android:text="Tolak"
-        android:textColor="#8B1A10"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFileTugasAkhir" />
 
     <TextView
         android:id="@+id/textView27"

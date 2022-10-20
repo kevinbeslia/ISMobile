@@ -4,8 +4,10 @@ import static android.content.ContentValues.TAG;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 import com.google.android.material.tabs.TabLayout;
@@ -19,4 +21,6 @@ public class UbahProfilActivity extends AppCompatActivity{
 
         getSupportFragmentManager().beginTransaction().add(R.id.profileFragment, new ProfileFragment());
     }
+
+
 }
